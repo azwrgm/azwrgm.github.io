@@ -1,14 +1,56 @@
-
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>酷狗音乐解锁页面</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: # 009688;
+            color: #fff;
+            border-radius: 3px;
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        .btn:hover {
+            background-color: # 00796b;
+        }
+
+        @media screen and (max-width: 600px) {
+            .container {
+                max-width: none;
+                padding: 10px;
+            }
+
+            .btn {
+                display: block;
+                margin: 5px auto;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>酷狗音乐解锁页面</h1>
-    <p>选择您的设备类型：</p>
-    <a href="kgm.html">酷狗音乐解锁手机版</a>
-    <a href="kgpc.html">酷狗音乐解锁PC版</a>
+    <div class="container">
+        <h1>酷狗音乐解锁页面</h1>
+        <p>选择您的设备类型：</p>
+        <a href="kgm.html" class="btn">酷狗音乐解锁手机版</a>
+        <a href="kgpc.html" class="btn">酷狗音乐解锁PC版</a>
+    </div>
 </body>
 </html>
  
